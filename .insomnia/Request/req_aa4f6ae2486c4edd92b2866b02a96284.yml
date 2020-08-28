@@ -1,0 +1,65 @@
+_id: req_aa4f6ae2486c4edd92b2866b02a96284
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "alcoholConsumption": {
+        "drinkAlcohol": false,
+        "sections": [
+        
+        ]
+      },
+      "heartRate": {
+        "heartRateType": "RESTING",
+        "value": 120
+      },
+      "reactionTime": {
+        "value": 19.7
+      },
+      "selfHealthRate": {
+        "value": "EXCELLENT"
+      },
+      "sleepQuestions": {
+        "hoursSleep": 10,
+        "minutesSleep": 10,
+        "sleepQualityScore": "POOR",
+        "tiredScore": "LESS_THAN_NORMAL"
+      },
+      "smokeQuestions": {
+        "numberOfCigarettesPerDay": 10,
+        "smokeStatus": "NO",
+        "smokerType": "REGULAR_SMOKER",
+        "smokingPeriod": "LESS_THAN_A_YEAR",
+        "vapePeriodic": "OCCASIONALLY",
+        "vapeStatus": "YES_AND_I_STILL_DO"
+      },
+      "waistToHeight": {
+        "value": 0.5
+      }
+    }
+created: 1598618261568
+description: ""
+headers:
+  - id: pair_a75d9343af764c70ab9da07251952d04
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_6c340fae6f774c8597c72069213bfccc
+    name: Authorization
+    value: 8J29zrbyFeX2ZAWrjNxAJuTrUFUkybhigdc4zHaWZDMPZN33B7
+isPrivate: false
+metaSortKey: -1598618261569
+method: POST
+modified: 1598618444696
+name: Health Score
+parameters: []
+parentId: fld_a66cb1d2c72b432b81b93a1602fef796
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base }}/api/score/v1beta/health-score"
